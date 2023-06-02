@@ -1,0 +1,46 @@
+.container {
+    position: absolute;
+    background-color: aliceblue;
+    width: 100dvw;
+    height: 100dvh;
+    color: black;
+    z-index: -1;
+}
+
+.sna {
+    z-index: 2 !important;
+    background-color: #ffffff;
+    border: 2px solid #2a475e;
+    box-shadow: 24;
+    width: max-content;
+    border-radius: 15px;
+    @media(max-width:1390px) {
+        bottom: 16px;
+        left: 8px;
+    }
+    @media (min-width: 600px) {
+        bottom: 18px !important;
+    }
+}
+
+.arrows {
+    text-align: center;
+    color: #2a475e;
+    
+    button {
+        color: #2a475e;
+    }
+
+    svg {
+        transform: rotate(270deg);
+        color: #2a475e;
+    }
+
+    div{
+        color: #2a475e;
+    }
+}
+
+.sv{
+    position: absolute;
+}

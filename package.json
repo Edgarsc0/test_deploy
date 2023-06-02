@@ -1,0 +1,31 @@
+{
+  "name": "gabow_front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@20tab/react-leaflet-resetview": "^1.1.0",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.11.16",
+    "axios": "^1.4.0",
+    "leaflet": "^1.9.3",
+    "merge-images": "^2.0.0",
+    "mysql2": "^3.3.1",
+    "next": "13.3.0",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-select": "^5.7.2",
+    "react-svg": "^16.1.14",
+    "react-svg-loader": "^3.0.3",
+    "sass": "^1.61.0"
+  }
+}
